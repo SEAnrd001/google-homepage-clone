@@ -1,0 +1,155 @@
+/* google homepage clone */
+
+
+/* Styles rule reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Default Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    margin: 80px auto 0;
+    width: 580px;
+    text-align: center;
+}
+
+#logo {
+    width: 440px;
+    height: 200px;
+    background: url('googles-logo.gif');
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+input[type="search"] {
+    width: 566px;
+    padding: 10px;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+input[type="search"]:hover {
+    border-color: #aaa;
+}
+
+input[type="submit"] {
+    background: rgb(242, 242, 242);
+    color: #5F6368;
+    cursor: pointer;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    height: 36px;
+    line-height: 27px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    border: solid 1px #777;
+}
+
+p small {
+    color: #222;
+    text-align: center;
+    line-height: 28px;
+    display: inline-block;
+    font-size: small;
+}
+
+small a {
+    padding: 0 3px;
+    text-decoration: none;
+}
+
+small a:hover {
+    text-decoration: underline;
+}
+
+a:link,
+a:visited {
+    color: dodgerblue;
+}
+
+#header {
+    text-align: right;
+    margin: 15px 15px;
+}
+
+#header ul li {
+    display: inline-block;
+    padding-left: 15px;
+    line-height: normal;
+}
+
+a:link,
+a:visited {
+    color: #555;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+ul li img {
+    margin-bottom: -7px;
+}
+
+#button {
+    background-color: blue;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: bold;
+}
+
+footer {
+    background: #eee;
+    padding: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer nav {
+    padding: 10px 0;
+}
+
+footer nav ul {
+    float: left;
+    background-color: #f2f2f2;
+}
+
+footer nav .right-links {
+    float: right;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 0 0 0 27px;
+    font-size: small;
+    color: #5f6368
+}
+
+footer nav ul li:hover {
+    text-decoration: underline;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
